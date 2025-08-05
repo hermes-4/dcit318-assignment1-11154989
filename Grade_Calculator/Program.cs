@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 namespace GradeCalculator
 {
     class Program
@@ -7,7 +6,7 @@ namespace GradeCalculator
         static void Main(string[] args)
         {
             Console.WriteLine("***Grade Calculator***"); 
-            Console.Write("Enter a numerical grade (0 to 100):");
+            Console.Write("Enter a numerical grade (0 to 100): ");
 
             string input = Console.ReadLine();
 
